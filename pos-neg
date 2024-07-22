@@ -1,0 +1,48 @@
+Input Format
+
+one integer
+Constraints
+
+No Constraints
+
+Output Format
+
+if the given num is 5,execute the statement is Positive
+if the given num is -5,execute the statement is Negative
+if the given num is 0,execute the statement is Zero.
+Sample Input 0
+
+7
+Sample Output 0
+
+The Given Number 7 is Positive.
+Sample Input 1
+
+-7
+Sample Output 1
+
+The Given Number -7 is Negative.
+Sample Input 2
+
+0
+Sample Output 2
+
+The Given Number 0 is Zero.
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n>0)
+            System.out.println("The Given Number "+n+" is Positive.");
+        else if (n<0)
+            System.out.println("The Given Number "+n+" is Negative.");
+        else 
+            System.out.println("The Given Number "+n+" is Zero.");
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
